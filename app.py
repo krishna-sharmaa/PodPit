@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, send_file
-from models import tts
+from models import tts, script_gen
 
 app = Flask(__name__, template_folder='templates')
 
@@ -7,7 +7,8 @@ app = Flask(__name__, template_folder='templates')
 def home():
     if request.method == 'POST':
         user_input = request.form['user_input']
-        tts.text_to_speech(user_input)
+        script = script_gen.contentGenerator('user_input')
+        tts.text_to_speech(script)
         return render_template('results.html')
     return render_template('index.html')
 
