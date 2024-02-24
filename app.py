@@ -1,10 +1,21 @@
-from flask import Flask
+from flask import Flask, render_template, request, send_file
+from models import tts
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+@app.route('/', methods=['GET', 'POST'])
+def home():
+    if request.method == 'POST':
+        user_input = request.form['user_input']
+        tts.text_to_speech(user_input)
+        return render_template('results.html')
+    return render_template('index.html')
+
+@app.route('/download')
+def download():
+    path_to_file = "result.mp3"
+    return send_file(path_to_file, as_attachment=True)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
