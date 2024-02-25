@@ -5,8 +5,8 @@ PodNews is an AI-based podcast generator built using Flask. It allows users to i
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Why PodNews?](#Why%20PodNews?)
-3. [How?](#How?)
+2. [Why PodNews?](#Why+PodNews%3F)
+3. [How?](#How%3F)
 4. [USPs](#USPs)
 5. [Installation](#installation)
 6. [Usage](#usage)
