@@ -1,11 +1,11 @@
-# PodNews
+# PodPit
 
-PodNews is an AI-based podcast generator built using Flask. It allows users to input a topic, and the application creates a tailored podcast on that topic using various open-source packages such as gTTS, Llama2, Ollama, etc.
+PodPit is an AI-based podcast generator built using Flask. It allows users to input a topic, and the application creates a tailored podcast on that topic using various open-source packages such as gTTS, Llama2, Ollama, etc.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Why PodNews?](#Why-PodNews)
+2. [Why PodPit?](#Why-PodPit)
 3. [How?](#How)
 4. [USPs](#USPs)
 5. [Installation](#installation)
@@ -16,9 +16,9 @@ PodNews is an AI-based podcast generator built using Flask. It allows users to i
 
 ## Introduction
 
-PodNews is designed to simplify the process of creating podcasts on specific topics. By leveraging AI and natural language processing techniques, it generates podcast content tailored to user-input topics, providing users with customized audio content.
+PodPit is designed to simplify the process of creating podcasts on specific topics. By leveraging AI and natural language processing techniques, it generates podcast content tailored to user-input topics, providing users with customized audio content.
 
-## Why PodNews?
+## Why PodPit?
 
 Podcasting has gained immense popularity as a medium for sharing information, stories, and discussions on various topics. However, creating high-quality podcasts requires time, expertise, and resources, which can be barriers for individuals or organizations looking to enter the podcasting space. Additionally, finding relevant content on specific topics can be challenging for listeners.
 
@@ -36,23 +36,23 @@ Overall, podcasted content offers a dynamic and engaging alternative to written 
 
 ## How?
 
-PodNews aims to address these challenges by providing an AI-based podcast generation platform. Users can input a topic of interest, and the application automatically generates a tailored podcast on that topic. Leveraging natural language processing (NLP) and text-to-speech (TTS) technologies, PodNews synthesizes information, generates engaging content, and delivers it in audio format, eliminating the need for manual podcast creation.
+PodPit aims to address these challenges by providing an AI-based podcast generation platform. Users can input a topic of interest, and the application automatically generates a tailored podcast on that topic. Leveraging natural language processing (NLP) and text-to-speech (TTS) technologies, PodPit synthesizes information, generates engaging content, and delivers it in audio format, eliminating the need for manual podcast creation.
 
 ## USPs
 
 **Unique Selling Propositions (USPs):**
 
-1. **AI-Powered Podcast Generation:** PodNews utilizes advanced AI algorithms to analyze input topics and generate podcasts with human-like narration, offering a seamless and efficient content creation experience.
+1. **AI-Powered Podcast Generation:** PodPit utilizes advanced AI algorithms to analyze input topics and generate podcasts with human-like narration, offering a seamless and efficient content creation experience.
 2. **Customization and Personalization:** The platform allows users to input their desired topics, ensuring that generated podcasts are relevant and tailored to their interests, enhancing engagement and satisfaction.
-3. **User Authentication and Personalization:** PodNews offers signup/login functionality, allowing users to create personalized accounts to save preferences, access podcast history, and enjoy a customized experience.
+3. **User Authentication and Personalization:** PodPit offers signup/login functionality, allowing users to create personalized accounts to save preferences, access podcast history, and enjoy a customized experience.
 4. **Podcast History and Download:** Users can access their podcast history and download previous episodes for offline listening, providing convenience and flexibility in accessing content.
-5. **Open Source and Community-Driven:** PodNews leverages open-source packages like gTTS, Llama2, and Ollama, fostering collaboration and innovation within the development community. This open approach enables continuous improvement and customization of the platform.
-6. **Ease of Use:** With a user-friendly interface and intuitive workflow, PodNews makes podcast creation accessible to a wide range of users, including content creators, educators, businesses, and individuals with no prior podcasting experience.
-7. **Time and Resource Efficiency:** By automating the podcast generation process, PodNews saves users time and resources that would otherwise be spent on researching, scripting, recording, and editing podcasts, enabling them to focus on content delivery and audience engagement.
-8. **Scalability and Versatility:** PodNews can accommodate a diverse range of topics and formats, making it suitable for various applications, including educational content creation, news updates, storytelling, marketing campaigns, and more.
-9. **Paid Plans with Enhanced Features:** PodNews offers paid plans with larger limits and additional features, such as advanced topic analysis, priority support, ad-free listening, and exclusive content access.
+5. **Open Source and Community-Driven:** PodPit leverages open-source packages like gTTS, Llama2, and Ollama, fostering collaboration and innovation within the development community. This open approach enables continuous improvement and customization of the platform.
+6. **Ease of Use:** With a user-friendly interface and intuitive workflow, PodPit makes podcast creation accessible to a wide range of users, including content creators, educators, businesses, and individuals with no prior podcasting experience.
+7. **Time and Resource Efficiency:** By automating the podcast generation process, PodPit saves users time and resources that would otherwise be spent on researching, scripting, recording, and editing podcasts, enabling them to focus on content delivery and audience engagement.
+8. **Scalability and Versatility:** PodPit can accommodate a diverse range of topics and formats, making it suitable for various applications, including educational content creation, news updates, storytelling, marketing campaigns, and more.
+9. **Paid Plans with Enhanced Features:** PodPit offers paid plans with larger limits and additional features, such as advanced topic analysis, priority support, ad-free listening, and exclusive content access.
 
-PodNews offers an innovative solution to simplify podcast creation, enhance content accessibility, and empower users to share their stories and ideas with the world effortlessly, while also providing additional benefits such as user authentication, podcast history, download features, and paid plans for advanced functionality and support.
+PodPit offers an innovative solution to simplify podcast creation, enhance content accessibility, and empower users to share their stories and ideas with the world effortlessly, while also providing additional benefits such as user authentication, podcast history, download features, and paid plans for advanced functionality and support.
 
 ## Installation
 
@@ -88,20 +88,20 @@ Ensure you have the following prerequisites installed:
 
 ## Usage
 
-1. Access the PodNews web application through your browser.
+1. Access the PodPit web application through your browser.
 2. Input a topic of interest into the provided form.
 3. Submit the form to generate a tailored podcast on the specified topic.
 4. Listen to the generated podcast directly on the website or download it for offline listening.
 
 ## Contributing
 
-Contributions to PodNews are welcome! Follow these steps to contribute:
+Contributions to PodPit are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
 2. Clone your fork:
    ```bash
-   $ git clone https://github.com/your-username/podnews.git
-   $ cd podnews
+   $ git clone https://github.com/your-username/PodPit.git
+   $ cd PodPit
    ```
 3. Create a new branch:
    ```bash
@@ -120,7 +120,7 @@ Contributions to PodNews are welcome! Follow these steps to contribute:
 
 ## Ongoing Features
 
-PodNews is continually evolving to provide users with new functionalities and enhancements. Below are some ongoing features and improvements planned for future releases:
+PodPit is continually evolving to provide users with new functionalities and enhancements. Below are some ongoing features and improvements planned for future releases:
 
 1. **Enhanced Topic Analysis:**
 
@@ -153,10 +153,10 @@ PodNews is continually evolving to provide users with new functionalities and en
    - Enhance accessibility features to ensure compatibility with screen readers, keyboard navigation, and other assistive technologies.
    - Conduct usability testing with diverse user groups to identify and address accessibility barriers effectively.
 
-These ongoing features reflect our commitment to continuous improvement and innovation, aiming to enhance the PodNews experience and meet the evolving needs of our users. Stay tuned for updates and announcements on upcoming releases!
+These ongoing features reflect our commitment to continuous improvement and innovation, aiming to enhance the PodPit experience and meet the evolving needs of our users. Stay tuned for updates and announcements on upcoming releases!
 
 ## Troubleshooting
 
-If you encounter any issues while using PodNews, reach out to the project maintainers for assistance.
+If you encounter any issues while using PodPit, reach out to the project maintainers for assistance.
 
 ---
