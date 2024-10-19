@@ -22,7 +22,7 @@ PodPit is designed to simplify the process of creating podcasts on specific topi
 
 Podcasting has gained immense popularity as a medium for sharing information, stories, and discussions on various topics. However, creating high-quality podcasts requires time, expertise, and resources, which can be barriers for individuals or organizations looking to enter the podcasting space. Additionally, finding relevant content on specific topics can be challenging for listeners.
 
-Podcasted content offers several advantages over written documentation, making it a preferred choice for many users:
+Podcasted content offers several advantages over written documentation, making it a preferred choice for many users
 
 1. **Accessibility:** Podcasts allow users to consume content while performing other tasks, such as driving, exercising, or cooking, providing a convenient way to learn and stay informed without requiring dedicated time for reading.
 2. **Engagement:** Audio content can be more engaging and immersive than written text, as it leverages elements such as tone, intonation, and background music to capture listeners' attention and convey emotions effectively.
